@@ -1,0 +1,225 @@
+{
+	"QA_Pages":
+	{
+		"LoginExpectedURL": "https://qaweb.myprotrackplus.net/Dashboard/Index",
+		"LoginExpectedTitle": "Protrack",
+		"ExpectedTitle": "Protrack",
+		"DashBoardExpectedURL": "https://qaweb.myprotrackplus.net/Dashboard/Index",
+		"DashBoardExpectedTitle": "Protrack",
+		"BreExpectedURL": "https://qaweb.myprotrackplus.net/Dashboard/Index/1",
+		"BreExpectedTitle": "Protrack",
+		"AddProjectExpectedURL":"https://qaweb.myprotrackplus.net/Project/Index",
+		"AddProjectExpectedTitle": "Protrack",
+		"AddCompanyExpectedURL":"https://qaweb.myprotrackplus.net/Project/Index",
+		"AddCompanyExpectedTitle":"Protrack",
+		"AddContactsExpectedURL":"https://qaweb.myprotrackplus.net/Project/Index",
+		"AddContactsExpectedTitle":"Protrack",
+		"AddSurveyExpectedTitle":"Protrack",
+		"AddLibraryofDocumentsExpectedTitle":"Protrack",
+		"MunicipalDocumentExpectedURL": "https://qaweb.myprotrackplus.net/Resource/MunicipalDocuments",
+		"MunicipalDocumentsExpectedTitle": "Protrack",
+		"MarketingMaterialExpectedURL": "https://qaweb.myprotrackplus.net/Resource/MarketingMaterial",
+		"ProjectManagmentLandingPage": "https://qaweb.myprotrackplus.net/Project/Index/3"
+
+		
+	},
+	
+	"QA_DAFC_Pages":
+	{
+		"LoginExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"LoginExpectedTitle": "Protrack",
+		"ExpectedTitle": "Protrack",
+		"DashBoardExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"DashBoardExpectedTitle": "Protrack",
+		"BreExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index/1",
+		"BreExpectedTitle": "Protrack",
+		"AddProjectExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddProjectExpectedTitle": "Protrack",
+		"AddCompanyExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddCompanyExpectedTitle":"Protrack",
+		"AddContactsExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddContactsExpectedTitle":"Protrack",
+		"AddSurveyExpectedTitle":"Protrack",
+		"AddLibraryofDocumentsExpectedTitle":"Protrack",
+		"MunicipalDocumentExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MunicipalDocuments",
+		"MunicipalDocumentsExpectedTitle": "Protrack",
+		"MarketingMaterialExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MarketingMaterial",
+		"ProjectManagmentLandingPage": "https://previewweb.myprotrackplus.net/Project/Index/3"
+
+		
+	},
+	
+	"DEV_DAFC_Pages":
+	{
+		"LoginExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"LoginExpectedTitle": "Protrack",
+		"ExpectedTitle": "Protrack",
+		"DashBoardExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"DashBoardExpectedTitle": "Protrack",
+		"BreExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index/1",
+		"BreExpectedTitle": "Protrack",
+		"AddProjectExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddProjectExpectedTitle": "Protrack",
+		"AddCompanyExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddCompanyExpectedTitle":"Protrack",
+		"AddContactsExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddContactsExpectedTitle":"Protrack",
+		"AddSurveyExpectedTitle":"Protrack",
+		"AddLibraryofDocumentsExpectedTitle":"Protrack",
+		"MunicipalDocumentExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MunicipalDocuments",
+		"MunicipalDocumentsExpectedTitle": "Protrack",
+		"MarketingMaterialExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MarketingMaterial",
+		"ProjectManagmentLandingPage": "https://previewweb.myprotrackplus.net/Project/Index/3"
+
+		
+	},
+	
+	"UAT_DAFC_Pages":
+	{
+		"LoginExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"LoginExpectedTitle": "Protrack",
+		"ExpectedTitle": "Protrack",
+		"DashBoardExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"DashBoardExpectedTitle": "Protrack",
+		"BreExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index/1",
+		"BreExpectedTitle": "Protrack",
+		"AddProjectExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddProjectExpectedTitle": "Protrack",
+		"AddCompanyExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddCompanyExpectedTitle":"Protrack",
+		"AddContactsExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddContactsExpectedTitle":"Protrack",
+		"AddSurveyExpectedTitle":"Protrack",
+		"AddLibraryofDocumentsExpectedTitle":"Protrack",
+		"MunicipalDocumentExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MunicipalDocuments",
+		"MunicipalDocumentsExpectedTitle": "Protrack",
+		"MarketingMaterialExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MarketingMaterial",
+		"ProjectManagmentLandingPage": "https://previewweb.myprotrackplus.net/Project/Index/3"
+
+		
+	},
+	
+	"QA_SCIDA_Pages":
+	{
+		"LoginExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"LoginExpectedTitle": "Protrack",
+		"ExpectedTitle": "Protrack",
+		"DashBoardExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"DashBoardExpectedTitle": "Protrack",
+		"BreExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index/1",
+		"BreExpectedTitle": "Protrack",
+		"AddProjectExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddProjectExpectedTitle": "Protrack",
+		"AddCompanyExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddCompanyExpectedTitle":"Protrack",
+		"AddContactsExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddContactsExpectedTitle":"Protrack",
+		"AddSurveyExpectedTitle":"Protrack",
+		"AddLibraryofDocumentsExpectedTitle":"Protrack",
+		"MunicipalDocumentExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MunicipalDocuments",
+		"MunicipalDocumentsExpectedTitle": "Protrack",
+		"MarketingMaterialExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MarketingMaterial",
+		"ProjectManagmentLandingPage": "https://previewweb.myprotrackplus.net/Project/Index/3"
+
+		
+	},
+	
+	
+	"DEV_SCIDA_Pages":
+	{
+		"LoginExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"LoginExpectedTitle": "Protrack",
+		"ExpectedTitle": "Protrack",
+		"DashBoardExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"DashBoardExpectedTitle": "Protrack",
+		"BreExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index/1",
+		"BreExpectedTitle": "Protrack",
+		"AddProjectExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddProjectExpectedTitle": "Protrack",
+		"AddCompanyExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddCompanyExpectedTitle":"Protrack",
+		"AddContactsExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddContactsExpectedTitle":"Protrack",
+		"AddSurveyExpectedTitle":"Protrack",
+		"AddLibraryofDocumentsExpectedTitle":"Protrack",
+		"MunicipalDocumentExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MunicipalDocuments",
+		"MunicipalDocumentsExpectedTitle": "Protrack",
+		"MarketingMaterialExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MarketingMaterial",
+		"ProjectManagmentLandingPage": "https://previewweb.myprotrackplus.net/Project/Index/3"
+
+		
+	},
+	
+	"UAT_SCIDA_Pages":
+	{
+		"LoginExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"LoginExpectedTitle": "Protrack",
+		"ExpectedTitle": "Protrack",
+		"DashBoardExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"DashBoardExpectedTitle": "Protrack",
+		"BreExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index/1",
+		"BreExpectedTitle": "Protrack",
+		"AddProjectExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddProjectExpectedTitle": "Protrack",
+		"AddCompanyExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddCompanyExpectedTitle":"Protrack",
+		"AddContactsExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddContactsExpectedTitle":"Protrack",
+		"AddSurveyExpectedTitle":"Protrack",
+		"AddLibraryofDocumentsExpectedTitle":"Protrack",
+		"MunicipalDocumentExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MunicipalDocuments",
+		"MunicipalDocumentsExpectedTitle": "Protrack",
+		"MarketingMaterialExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MarketingMaterial",
+		"ProjectManagmentLandingPage": "https://previewweb.myprotrackplus.net/Project/Index/3"
+
+		
+	},
+	
+	"DEV_Pages":
+	{
+      	"LoginExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"LoginExpectedTitle": "Protrack",
+		"ExpectedTitle": "Protrack",
+		"DashBoardExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"DashBoardExpectedTitle": "Protrack",
+		"BreExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index/1",
+		"BreExpectedTitle": "Protrack",
+		"AddProjectExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddProjectExpectedTitle": "Protrack",
+		"AddCompanyExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddCompanyExpectedTitle":"Protrack",
+		"AddContactsExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddContactsExpectedTitle":"Protrack",
+		"AddSurveyExpectedTitle":"Protrack",
+		"AddLibraryofDocumentsExpectedTitle":"Protrack",
+		"MunicipalDocumentExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MunicipalDocuments",
+		"MunicipalDocumentsExpectedTitle": "Protrack",
+		"MarketingMaterialExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MarketingMaterial",
+		"ProjectManagmentLandingPage": "https://previewweb.myprotrackplus.net/Project/Index/3"	
+	},
+	
+	"UAT_Pages":
+	{
+		"LoginExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"LoginExpectedTitle": "Protrack",
+		"ExpectedTitle": "Protrack",
+		"DashBoardExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index",
+		"DashBoardExpectedTitle": "Protrack",
+		"BreExpectedURL": "https://previewweb.myprotrackplus.net/Dashboard/Index/1",
+		"BreExpectedTitle": "Protrack",
+		"AddProjectExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddProjectExpectedTitle": "Protrack",
+		"AddCompanyExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddCompanyExpectedTitle":"Protrack",
+		"AddContactsExpectedURL":"https://previewweb.myprotrackplus.net/Project/Index",
+		"AddContactsExpectedTitle":"Protrack",
+		"AddSurveyExpectedTitle":"Protrack",
+		"AddLibraryofDocumentsExpectedTitle":"Protrack",
+		"MunicipalDocumentExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MunicipalDocuments",
+		"MunicipalDocumentsExpectedTitle": "Protrack",
+		"MarketingMaterialExpectedURL": "https://previewweb.myprotrackplus.net/Resource/MarketingMaterial",
+		"ProjectManagmentLandingPage": "https://previewweb.myprotrackplus.net/Project/Index/3"
+		
+	}
+}
+	    

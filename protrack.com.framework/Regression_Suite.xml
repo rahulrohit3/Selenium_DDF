@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test" thread-count="1" parallel="classes">
+
+	<test name="Regression Test Suite ProjectManagement"
+		thread-count="1" parallel="classes">
+		<packages>
+			<package name="Protrack.test.login.page" />
+			<package name="Protrack.test.project.page" />
+			<package name="Protrack.test.contact.page" />
+			<package name="Protrack.test.company.page" />
+
+		</packages>
+	</test>
+
+
+	<test name="Regression Test Suite BRE" thread-count="1"
+		parallel="classes">
+		<packages>
+			<package name="Protrack.test.BRE.Form.page" />
+			<package name="Protrack.test.BRE.Survey.page" />
+		</packages>
+	</test>
+	
+	<test name="Regression Test Suite DAFC" thread-count="1"
+		parallel="classes">
+		<packages>
+			<package name="Protrack.test.project.page.DAFC" />
+		</packages>
+	</test>
+	
+	<test name="Regression Test Suite SCIDA" thread-count="1"
+		parallel="classes">
+		<packages>
+			<package name="Protrack.test.project.page.SCIDA" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite Library" thread-count="1"
+		parallel="classes">
+		<packages>
+			<package name="Protrack.test.library.page" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite Calender" thread-count="1"
+		parallel="classes">
+		<packages>
+			<package name="Protrack.test.calender.page" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite Admin" thread-count="1"
+		parallel="classes">
+		<packages>
+			<package name="Protrack.test.admin.page" />
+		</packages>
+	</test>
+
+
+	<test name="Regression Test Suite Project" thread-count="1"
+		parallel="classes">
+		<packages>
+			<package name="Protrack.test.project.page" />
+
+		</packages>
+	</test>
+
+
+	<test name="Regression Test Suite Contact" thread-count="1"
+		parallel="classes">
+		<packages>
+			<package name="Protrack.test.contact.page" />
+
+		</packages>
+	</test>
+
+
+	<test name="Regression Test Suite Company" thread-count="1"
+		parallel="classes">
+		<packages>
+			<package name="Protrack.test.company.page" />
+
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite DashBoard" thread-count="1"
+		parallel="classes">
+		<packages>
+			<package name="Protrack.test.dashboard.page" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite Form" thread-count="1"
+		parallel="classes">
+		<packages>
+			<package name="Protrack.test.BRE.Form.page" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite Survey" thread-count="1"
+		parallel="classes">
+		<packages>
+			<package name="Protrack.test.BRE.Survey.page" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite All" thread-count="1"
+		parallel="classes">
+		<packages>
+			<package name="Protrack.test.login.page" />
+			<package name="Protrack.test.library.page" />
+			<package name="Protrack.test.project.page" />
+			<package name="Protrack.test.contact.page" />
+			<package name="Protrack.test.dashboard.page" />
+			<package name="Protrack.test.company.page" />
+			<package name="Protrack.test.calender.page" />
+			<package name="Protrack.test.BRE.Form.page" />
+			<package name="Protrack.test.BRE.Survey.page" />
+			<package name="Protrack.test.project.page.newtest" />
+		</packages>
+	</test>
+
+	<listeners>
+		<listener
+			class-name="protrack.com.frame.core.ExtentReporterNG" />
+		<listener
+			class-name="protrack.com.frame.retryanalyzer.RetryListener" />
+	</listeners>
+</suite>

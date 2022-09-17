@@ -1,0 +1,2852 @@
+{
+	"TestData": {
+
+		"TCID_incorrectpassword": {
+			"ExpectedErrorMessage": "The User ID or Password is incorrect."
+		},
+
+		"TCID_incorrectTenent": {
+			"ExpectedErrorMessage": "Invalid Tenant"
+		},
+
+		"dashboard001_NavigateDashBoardScreen": {
+			"ExpectedPageName": "Dashboard"
+		},
+		"dashboard002_NavigateAddProjectScreen": {
+			"ExpectedPageName": "Add Project Info"
+		},
+
+		"dashboard003_NavigateAddCompanyScreen": {
+			"ExpectedPageName": "Add Company Info"
+		},
+
+		"dashboard004_NavigateAddContactsScreen": {
+			"ExpectedPageName": "Add Contact Info"
+		},
+
+		"dashboard005_NavigateSurveyScreen": {
+			"ExpectedPageName": "BRE"
+		},
+
+		"dashboard006_NavigateLibraryofDocumentsScreen": {
+			"ExpectedPageName": "Municipal Documents"
+		},
+		"dashboard007_NavigateViewProjectListScreen": {
+			"ExpectedPageName": "Projects"
+		},
+		"dashboard008_NavigateViewContactListScreen": {
+			"ExpectedPageName": "Contacts"
+		},
+
+		"dashboard009_NavigateViewCompanyListScreen": {
+			"ExpectedPageName": "Companies"
+		},
+
+		"dashboard010_NavigateViewCalenderListScreen": {
+			"ExpectedPageName": "Calendar"
+		},
+		"Contact_001_ViewAllTheTabs_Available": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedProjectInfoTabtext": "Project Information",
+			"ExpectedResourcesTabtext": "Resources",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes"
+		},
+		"Contact_002_ViewAllTheRequiredFields_GeneralInfo": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger"
+
+		},
+
+		"Contact_003_ViewAllTheRequiredFields_Resource": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedResourcesTabtext": "Resources",
+			"ExpectedLInlineTextDescription": "Description",
+			"ExpectedLInlineTextKeyword": "Keyword",
+			"ExpectedLInlineTextUploadFile": "Upload File"
+
+		},
+
+
+		"Contact_004_ViewAllTheRequiredFields_InteractionNote": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedInteractionNotesTab_NoteType": "Note Type",
+			"ExpectedInteractionNotesTab_Author": "Author",
+			"ExpectedInteractionNotesTab_Date": "Date",
+			"ExpectedInteractionNotesTab_Description": "Description",
+			"ExpectedInteractionNotesTab_Attendee": "Attendees",
+			"ExpectedInteractionNotesTab_ShortDesc": "Short Description",
+			"ExpectedInteractionNotesTab_File": "File",
+			"ExpectedInteractionNotesTab_Company": "Company",
+			"ExpectedInteractionNotesTab_Project": "Project"
+
+
+		},
+
+		"CreateCompanyfewDetails_SearchinContactListWhileSendingSurvey": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"MySurveys": "My Surveys",
+			"Expected_NewSurveyFiledtext": "New Survey*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_SectionInstructionFiledtext": "Instruction",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedInteractionNotesTab_NoteType": "Note Type",
+			"ExpectedInteractionNotesTab_Author": "Author",
+			"ExpectedInteractionNotesTab_Date": "Date",
+			"ExpectedInteractionNotesTab_Description": "Description",
+			"ExpectedInteractionNotesTab_Attendee": "Attendees",
+			"ExpectedInteractionNotesTab_ShortDesc": "Short Description",
+			"ExpectedInteractionNotesTab_File": "File",
+			"ExpectedInteractionNotesTab_Company": "Company",
+			"ExpectedInteractionNotesTab_Project": "Project"
+
+
+		},
+
+		"Contact_005_AddNewContact": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+
+
+		},
+
+		"Verify_ContactNotCreatedOnClickingcancel": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+
+
+		},
+
+		"Contact_AbletoEditContactDetails": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+
+
+		},
+
+
+		"Contact_AbletoViewEditContactDetails": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+
+
+		},
+
+		"Contact_AbletoViewAccessEditContactPage": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger",
+			"ExpectedResourcesTabtext": "Resources",
+			"ExpectedLInlineTextDescription": "Description",
+			"ExpectedLInlineTextKeyword": "Keyword",
+			"ExpectedLInlineTextUploadFile": "Upload File",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedInteractionNotesTab_NoteType": "Note Type",
+			"ExpectedInteractionNotesTab_Author": "Author",
+			"ExpectedInteractionNotesTab_Date": "Date",
+			"ExpectedInteractionNotesTab_Description": "Description",
+			"ExpectedInteractionNotesTab_Attendee": "Attendees",
+			"ExpectedInteractionNotesTab_ShortDesc": "Short Description",
+			"ExpectedInteractionNotesTab_File": "File",
+			"ExpectedInteractionNotesTab_Company": "Company",
+			"ExpectedInteractionNotesTab_Project": "Project"
+		},
+
+		"VerifyUserIsAbleToSearchContactsInContactTab": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+
+
+
+		},
+
+		"VerifyUserIsAbleToSearchValidContactsInContactTab": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+
+		},
+
+		"VerifyFirstLastAndPhonePresent": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobPhone": "Phone"
+
+		},
+
+
+		"Contact_AbleToAddmultiplePhoneNumber":
+
+		{
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger"
+		},
+
+		"Contact_AbleToAddPhoneNumberType_MAIN":
+
+		{
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger"
+		},
+
+		"Contact_AbleToAddPhoneNumberType_Work":
+
+		{
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger"
+		},
+
+		"Contact_AbleToAddPhoneNumberType_Office":
+
+		{
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger"
+		},
+
+		"Contact_AbleToAddPhoneNumberType_Home":
+
+		{
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger"
+		},
+
+		"Contact_AbleToAddPhoneNumberType_Mobile":
+
+		{
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger"
+		},
+
+		"Contact_AbleToAddPhoneNumberType_Personal":
+
+		{
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger"
+		},
+
+		"Contact_AbleToAddPhoneNumberType_WorkFax":
+
+		{
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger"
+		},
+
+		"Contact_AbleToAddPhoneNumberType_HomeFax":
+
+		{
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger"
+		},
+
+		"Contact_AbleToAddPhoneNumberType_Other":
+
+		{
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger"
+		},
+
+		"Contact_AbleToAddEmailType_Home":
+
+		{
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger"
+		},
+
+		"Contact_AbleToAddEmailType_Main":
+
+		{
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger"
+		},
+
+		"Contact_AbleToAddEmailType_Other":
+
+		{
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger"
+		},
+
+		"Contact_AbleToAddEmailType_Work":
+
+		{
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Add Contact Info",
+			"ExpectedLInlineTextFirstname": "First Name",
+			"ExpectedLInlineTextLastname": "Last Name",
+			"ExpectedLInlineTextJobTitle": "Job Title",
+			"ExpectedLInlineTextCompany": "Company Name",
+			"ExpectedLInlineTextProject": "Project Name",
+			"ExpectedLInlineTextDates": "Contact Date",
+			"ExpectedLInlineTextTags": "Tags",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile",
+			"ExpectedLInlineTextJobInstantmessenger": "Instant Messenger"
+		},
+
+		"Contact_ValidateEmailID": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+
+
+		},
+
+		"Contact_AbleToAddAddressType_HeadOffice": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+		"Contact_AbleToAddAddressType_ProjectOffice": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+		"Contact_AbleToAddAddressType_Other": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+		"Contact_AbleToAddAddressType_Home": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+		"Contact_AbleToAddAddressType_BranchOffice": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+		"Contact_AbleToAddURLType_Home": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+		"Contact_AbleToAddURLType_HomePage": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+		"Contact_AbleToAddURLType_Work": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+		"Contact_AbleToAddURLType_Profile": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+
+		"Contact_AbleToAddURLType_Other": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+
+		"Contact_AbleToAddSocialType_Twitter": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+		"Contact_AbleToAddSocialType_Flickr": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+		"Contact_AbleToAddSocialType_Facebook": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+		"Contact_AbleToAddSocialType_Instagram": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+		"Contact_AbleToAddSocialType_LinkedIn": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+		"Contact_AbleToAddSocialType_Myspace": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+		"Contact_AbleToAddSocialType_Others": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+		"Contact_AbleToAddInstantMessenger_Skype": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+		"Contact_AbleToAddInstantMessenger_MSNMessenger": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+		"Contact_AbleToAddInstantMessenger_GoogleTalk": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+		"Contact_AbleToAddInstantMessenger_FacebookMessenger": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+		"Contact_AbleToAddInstantMessenger_Other": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+		},
+
+
+		"Contactvalidationpromotion": {
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+
+
+		},
+
+		"CreateContactfewDetails_withCreatedCompany": {
+
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Lead",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"Companyinternotes_ProjectValue": "Deployment_Product_Test12",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+
+		},
+
+		"createContactCompleteDetailsAlreadyCreateCompany": {
+
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"Companyinternotes_ProjectValue": "Deployment_Product_Test12",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedPageName": "Contacts"
+
+		},
+
+		"createContactCompleteDetailsAlreadyCreateProject": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Website",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+		},
+
+		"createContactWithFewDetailsAlreadyCreateProject": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+		},
+
+		"createContactCompleteDetailsAlreadyCreateCompanyAndProject": {
+
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"Companyinternotes_ProjectValue": "Deployment_Product_Test12",
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+		},
+
+
+		"createContactFewDetailsAlreadyCreateCompanyAndProject": {
+
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"Companyinternotes_ProjectValue": "Deployment_Product_Test12",
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+		},
+
+		"Company_001_ViewAllTheTabs_Available": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedProjectInfoTabtext": "Project Data",
+			"ExpectedResourcesTabtext": "Resources",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes"
+
+
+		},
+
+		"Company_002_ViewRequiredFiled_GeneralInfo": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+
+			"ExpectedLInlineTextCompanyName": "Company Name",
+			"ExpectedLInlineTextCompanyType": "CompanyType",
+			"ExpectedLInlineTextProjectName": "Project Name",
+			"ExpectedLInlineTextIndustryCluster": "Industry Cluster",
+			"ExpectedLInlineTextNAICSCode": "NAICS Code",
+			"ExpectedLInlineTextParentCompany": "Parent Company",
+			"ExpectedLInlineTextFern": "FEIN",
+			"ExpectedLInlineTextDates": "Date",
+			"ExpectedLInlineTextJobNotes": "Interaction Notes",
+			"ExpectedLInlineTextJobPhone": "Phone",
+			"ExpectedLInlineTextJobEmail": "Email",
+			"ExpectedLInlineTextJobAddress": "Address",
+			"ExpectedLInlineTextJobURl": "URL",
+			"ExpectedLInlineTextJobSocialProfile": "Social Profile"
+
+
+		},
+
+		"Company_003_ViewRequiredFiled_Resourcesinfo": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedResourcesTabtext": "Resources",
+			"ExpectedLInlineTextDescription": "Description",
+			"ExpectedLInlineTextKeyword": "Keyword",
+			"ExpectedLInlineTextUploadFile": "Upload File"
+
+
+		},
+
+
+		"Company_004_ViewAllTheRequiredFields_InteractionNote": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedInteractionNotesTab_NoteType": "Note Type",
+			"ExpectedInteractionNotesTab_Author": "Author",
+			"ExpectedInteractionNotesTab_Date": "Date",
+			"ExpectedInteractionNotesTab_Description": "Description",
+			"ExpectedInteractionNotesTab_Attendee": "Attendees",
+			"ExpectedInteractionNotesTab_ShortDesc": "Short Description",
+			"ExpectedInteractionNotesTab_File": "File",
+			"ExpectedInteractionNotesTab_Company": "Company",
+			"ExpectedInteractionNotesTab_Project": "Project"
+
+
+		},
+
+		"Contact_005_AddNewCompany": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12"
+		},
+
+
+		"CreateCompanyfewDetails_SearchinContactListWhileSendingForms": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12",
+			"ExpectedCreateFormpagetext": "General",
+			"Expected_NewFormFiledtext": "New Form*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_QueInstructionFiledtext": "Instruction"
+		},
+
+		"CreateCompanywithCompleteDetails_SearchinContactListWhileSendingForms": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"DropDown_Company": "Nabisco, Inc.",
+			"DropDown_Project": "Test Project Raman",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12",
+			"ExpectedCreateFormpagetext": "General",
+			"Expected_NewFormFiledtext": "New Form*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_QueInstructionFiledtext": "Instruction"
+		},
+
+		"CreateCompanywithCompleteDetails_SearchinContactListWhileSendingSurvey": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"DropDown_Company": "Nabisco, Inc.",
+			"DropDown_Project": "Test Project Raman",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12",
+			"ExpectedCreateFormpagetext": "General",
+			"Expected_NewFormFiledtext": "New Form*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_QueInstructionFiledtext": "Instruction",
+			"MySurveys": "My Surveys",
+			"Expected_NewSurveyFiledtext": "New Survey*",
+			"Expected_SectionInstructionFiledtext": "Instruction"
+		},
+
+		"Company_AbleToAddPhoneType_Home": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12"
+		},
+
+		"Company_AbleToAddPhoneType_HomeFax": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12"
+		},
+
+		"Company_AbleToAddPhoneType_Mobile": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12"
+		},
+
+		"Company_AbleToAddPhoneType_Main": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12"
+		},
+
+		"Company_AbleToAddPhoneType_Office": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12"
+		},
+
+		"Company_AbleToAddPhoneType_Other": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12"
+		},
+
+		"Company_AbleToAddPhoneType_Personal": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12"
+		},
+
+		"Company_AbleToAddPhoneType_Work": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12"
+		},
+
+		"Company_AbleToAddPhoneType_WorkFax": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12"
+		},
+
+		"Company_AbleToAddEmailType_Home": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12"
+		},
+
+		"Company_AbleToAddEmailType_Work": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12"
+		},
+
+		"Company_AbleToAddEmailType_Main": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12"
+		},
+
+
+		"Company_AbleToAddEmailType_Other": {
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"internotes_ProjectValue": "Deployment_Product_Test12"
+		},
+
+
+
+		"createCompanyCompleteDetails_withCreatedProject": {
+
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated",
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"Companyinternotes_ProjectValue": "Deployment_Product_Test12",
+			"ExpectedTexsSocialProfile":"Twitter",
+			"ExpectedTextinstantmessenger":"Skype"
+			
+
+
+		},
+
+
+		"createCompanyFewDetails_withCreatedProject": {
+
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated",
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"Companyinternotes_ProjectValue": "Deployment_Product_Test12"
+
+
+		},
+
+		"BRE_001_CreateNewForm": {
+			"ExpectedCreateFormpagetext": "General",
+			"Expected_NewFormFiledtext": "New Form*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_QueInstructionFiledtext": "Instruction"
+
+		},
+
+		"CreateContactfewDetails_SearchinContactListWhileSendingForms": {
+
+			"ExpectedCreateFormpagetext": "General",
+			"Expected_NewFormFiledtext": "New Form*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_QueInstructionFiledtext": "Instruction",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+
+		},
+
+		"CreateContactwithCompleteDetails_SearchinContactListWhileSendingForms": {
+
+			"ExpectedCreateFormpagetext": "General",
+			"Expected_NewFormFiledtext": "New Form*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_QueInstructionFiledtext": "Instruction",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+
+		},
+
+		"SurveyModule_TC_Survey_001": {
+
+			"MySurveys": "My Surveys"
+
+		},
+
+		"SurveyModule_TC_Survey_002": {
+
+			"MySurveys": "My Surveys"
+
+		},
+
+
+		"SurveyModule_TC_Survey_003": {
+
+			"MySurveys": "My Surveys",
+			"Expected_NewSurveyFiledtext": "New Survey*",
+			"Expected_InstructionFiledtext": "Instructions"
+
+
+		},
+
+		"SurveyModule_TC_Survey_004": {
+
+			"MySurveys": "My Surveys",
+			"Expected_NewSurveyFiledtext": "New Survey*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_SectionInstructionFiledtext": "Instruction"
+
+		},
+
+		"SurveyModule_TC_Survey_CreateNewSurvey": {
+
+			"MySurveys": "My Surveys",
+			"Expected_NewSurveyFiledtext": "New Survey*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_SectionInstructionFiledtext": "Instruction"
+
+
+		},
+
+		"SurveyModule_CreateAndThenSend_Survey": {
+
+			"MySurveys": "My Surveys",
+			"Expected_NewSurveyFiledtext": "New Survey*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_SectionInstructionFiledtext": "Instruction",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+
+		},
+
+		"CreateContactwithCompleteDetails_SearchinContactListWhileSendingSurvey": {
+
+			"MySurveys": "My Surveys",
+			"Expected_NewSurveyFiledtext": "New Survey*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_SectionInstructionFiledtext": "Instruction",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+
+		},
+
+		"CreateContactfewDetails_SearchinContactListWhileSendingSurvey": {
+
+			"MySurveys": "My Surveys",
+			"Expected_NewSurveyFiledtext": "New Survey*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_SectionInstructionFiledtext": "Instruction",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+
+		},
+
+
+		"TC_Survey005Old_EditingQuestions": {
+
+			"MySurveys": "My Surveys",
+			"Expected_NewSurveyFiledtext": "New Survey*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_SectionInstructionFiledtext": "Instruction",
+			"EditedQuestion_name": "QaTestQuestionEdit"
+
+		},
+
+
+		"TC_Survey006O_DeletingQuestion": {
+
+			"MySurveys": "My Surveys",
+			"Expected_NewSurveyFiledtext": "New Survey*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_SectionInstructionFiledtext": "Instruction",
+			"EditedQuestion_name": "QaTestQuestionEdit"
+
+		},
+
+		"TC003_Municipal_Documents": {
+			"ExpectedText": "Municipal Documents"
+		},
+
+
+		"TC004_Marketing_Material_Documents": {
+			"ExpectedText": "Marketing Material"
+		},
+
+		"TC005_Marketing_Material_categorty_subcategory": {
+			"ExpectedText": "Website",
+			"ExpectedTextLanding": "Landing Page",
+			"ExpectedTextMaterial": "Material",
+			"ExpectedTextBroucher": "Brochures",
+			"ExpectedTextSites": "Sites",
+			"ExpectedTextIndustrial": "Industrial",
+			"ExpectedTextMixedUse": "Mixed Use",
+			"ExpectedTextOffice": "Office",
+			"ExpectedTextRetail": "Retail",
+			"ExpectedTextBuildings": "Buildings",
+			"ExpectedTextManufacturing": "Manufacturing"
+
+		},
+
+		"Auto_protrac_project_generalinformation_add_field_data": {
+			"ExpectedText": "Project Management",
+			"ExpectedTestGeneralinformation": "General Information"
+		},
+
+		"Verify_all_tabs_visible_on_project_page": {
+			"ExpectedTestGeneralinformation": "General Information",
+			"ExpectedTextProjectData": "Project Data",
+			"ExpectedTextResources": "Resources",
+			"ExpectedTextInteractionNotes": "Interaction Notes",
+			"ExpectedTextTask": "Tasks",
+			"ExpectedTextProjectBenefits": "Project Benefits",
+			"ExpectedPageName": "Add Project Info"
+
+		},
+
+		"CreateProjectEndToEnd": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated",
+			"ExpectedTexsSocialProfile": "Twitter",
+			"ExpectedTextinstantmessenger": "Skype",
+			"ProjectData_Stages_Drop_down_value": "Site Visit",
+			"ProjectData_Incentives_Drop_down_value": "N/A",
+			"ProjectData_History_Drop_down_value": "Modification"
+
+
+		},
+
+		"Editproject_Generalinfo": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+
+		"CreateTask_and_validate": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+
+
+		"Auto_protrac_verifiy_project_generalinformation_fileds_visibility": {
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedCompanyInformationTabtext": "Company Information",
+			"ExpectedProjectnamefiledtitletext": "Project Name",
+			"ExpectedCategoryfiledtitletext": "Category",
+			"ExpectedProjectManagerDropDowntitletext": "Project Manager",
+			"ExpectedCompanyDropDowntitletext": "Company",
+			"ExpectedParentCompanytitletext": "Parent Company",
+			"ExpectedFEINtitletext": "FEIN",
+			"ExpectedPrimaryContactpersonDropDowntitletext": "Primary Contact Person",
+			"ExpectedSecondaryContactpersonDropDowntitletext": "Secondary Contact Person",
+			"ExpectedSecondaryOtherpersonDropDowntitletext": "Other Contacts",
+			"ExpectedSecondaryIndustryClusterDropDowntitletext": "Industry Cluster",
+			"ExpectedSecondaryNAICSCODEDropDowntitletext": "NAICS Code",
+			"ExpectedSecondaryCommissonerfieldtitletext": "Commissioner Name",
+			"ExpectedSecondaryDistricfieldtitletext": "District",
+			"ExpectedSecondaryProjectDateSectiontitletext": "Project Date",
+			"ExpectedSecondaryProjectVisibilitytitletext": "Visibility",
+			"ExpectedSecondaryProjectTagstitletext": "Tags",
+			"ExpectedSecondaryProjectNotestitletext": "Notes",
+			"ExpectedSecondaryCommunicationInformationtitletext": "Communication Information",
+			"ExpectedSecondaryPhonetitletext": "Phone",
+			"ExpectedSecondaryEmailtitletext": "Email",
+			"ExpectedSecondaryAddresstitletext": "Address",
+			"ExpectedSecondaryURLtitletext": "URL",
+			"ExpectedSecondaryExtraStringField3titletext": "Extra String Field3",
+			"ExpectedSecondaryDummyDate3titletext": "Dummy Date 3",
+			"ExpectedSecondaryResponseRFItitletext": "Respond to RFI",
+			"ExpectedSecondaryRFIDatetitletext": "RFI Date",
+			"ExpectedSecondaryProjectSourcetitletext": "Project Source",
+			"ExpectedSecondaryProjecCreatedbytitletext": "Created By"
+
+
+		},
+
+		"Auto_protrac_Verify_all_fields_visible_ProjectData_Tab": {
+			"ExpectedProjectDataTabtext": "Project Data",
+			"ExpectedProjectInformationsectionTitletext": "Project Information",
+			"ExpectedProjectDescriptionfieldTitletext": "Project Description",
+			"ExpectedProjectStagesSectionTitletext": "Stages",
+			"ExpectedProjectSDateofContactSectionTitletext": "Date of Contact",
+			"ExpectedProjectStartDateTitletext": "Start Date",
+			"ExpectedProjectEndDateTitletext": "Construction End Date",
+			"ExpectedProjectRequirementDescriptionTitletext": "Requirement Description",
+			"ExpectedProjectSpaceRequirementsTitletext": "Space Requirements",
+			"ExpectedProjectExistingBuildingTitletext": "Existing Building",
+			"ExpectedProjectSpaceRequirmentFirstRowTitletext": "Name",
+			"ExpectedProjectSpaceRequirmentSecondRowTitletext": "Value",
+			"ExpectedProjectSpaceRequirmentThirdRowTitletext": "Units",
+			"ExpectedProjectSpaceRequirmentFourthRowTitletext": "Notes"
+
+
+		},
+
+		"Auto_protrac_verifiy_project_Benifits_fileds_visibility": {
+			"ExpectedProjectBenifitsTabtext": "Project Benefits",
+			"ExpectedProjectBenifitsInvestmnetInformationtext": "Investment Information",
+			"ExpectedProjectBenifitsInvestmentNotestext": "Investment Notes",
+			"ExpectedProjectBenifitsIncentiveNotestext": "Incentive Notes",
+			"ExpectedProjectBenifitsIncentiveInhibitorstext": "Investment Inhibitors and Reasons Notes",
+			"ExpectedProjectBenifitsIncentiveRationaletext": "Incentive Rationale",
+			"ExpectedProjectBenifitsInvestmnettext": "Investment (in $)",
+			"ExpectedProjectBenifitsInvestmnetAmounttext": "Investment Amount",
+			"ExpectedProjectBenifitsIncentiveAmounttext": "Incentive Amount",
+			"ExpectedProjectBenifitsInvestmentSourcetext": "Investment Source",
+			"ExpectedProjectBenifitsInvestmentTypetext": "Investment Type",
+			"ExpectedProjectBenifitsProjectFeeAmounttext": "Amount(In $)",
+			"ExpectedProjectBenifitsProjectFeeCollectedtext": "Fees Collected(In $)",
+			"ExpectedProjectBenifitsEmploymentInfoSectionTitletext": "Employment Information",
+			"ExpectedProjectBenifitsJobTypeTableTitle": "Job Type (in $)",
+			"ExpectedProjectBenifitsNumberofConstructionJobTitle": "Number of Construction Jobs",
+			"ExpectedProjectBenifitsWorkerWagesbTitle": "Average Construction Worker Wage (in $/month)",
+			"ExpectedProjectBenifitsPeriodJobsTitle": "Period of Construction Jobs (in months)",
+			"ExpectedProjectBenifitsTotalConstructionWagesTitle": "Total Construction Wages",
+			"ExpectedProjectBenifitsTotalJobsCreatedTitle": "Total Jobs Created",
+			"ExpectedProjectBenifitsDummyField4Title": "Dummy Field 4"
+
+
+
+		},
+
+		"Auto_protrac_verifiy_Resource_tab_fileds_visibility": {
+			"ExpectedResourcesTabtext": "Resources",
+			"ExpectedResourcesDescriptionFieldTitletext": "Description",
+			"ExpectedResourcesKeywordFieldTitletext": "Keyword",
+			"ExpectedResourcesUploadfileFieldTitletext": "Upload File"
+
+
+		},
+
+		"Auto_protrac_verifiy_Interaction_tab_fileds_visibility": {
+			"ExpectedInteractionTabtext": "Interaction Notes",
+			"ExpectedNoteTypetext": "Note Type",
+			"ExpectedAuthortext": "Author",
+			"ExpectedDatetext": "Date",
+			"ExpectedDescriptiontext": "Description",
+			"ExpectedAtendeetext": "Attendees",
+			"ExpectedShortDescriptiontext": "Short Description",
+			"ExpectedFiletext": "File",
+			"ExpectedCompanytext": "Company "
+
+
+
+		},
+
+		"Auto_protrac_verifiy_Task_tab_fields_visibility": {
+			"ExpectedTaskTabtext": "Tasks",
+			"ExpectedTaskNametext": "Task Name",
+			"ExpectedStartDatetext": "Start Date",
+			"ExpectedDueDatetext": "Due Date",
+			"ExpectedAssignedTotext": "Assigned To",
+			"ExpectedRecordStatustext": "Status",
+			"ExpectedPhasetext": "Phase"
+
+
+
+		},
+
+		"TC006_Municipal_Documents_upload": {
+			"ExpectedText": "Municipal Documents"
+
+
+		},
+		"TC007_MarketingMaterial_Documents_upload": {
+			"ExpectedText": "Marketing Material"
+
+
+		},
+
+		"TC001_adminDropdown_submenu_validilty": {
+			"DropDown_Company": "Project"
+
+
+		},
+
+
+		"TC001_adminFieldMangmnet_submenu_Visibility_check": {
+
+			"ExpectedGeneralInformationTabtext": "General Information"
+
+		},
+
+		"TC011_Municapl_Documents_delete": {
+
+			"ExpectedText": "Municipal Documents"
+
+		},
+
+		"CreateProjectWithFewDetails_withCreatedCompanyandContact": {
+
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"Companyinternotes_ProjectValue": "Deployment_Product_Test12",
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+		},
+		
+		"CreateProjectWithFewDetails_withCreatedCompanyandContact_dafc": {
+
+			"ExpectedCompanypagetext": "Add Company Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"ExpectedInteractionNotesTabtext": "Interaction Notes",
+			"ExpectedResourcesTabtext": "Resources",
+			"Com_DropDown_Company": "Source",
+			"Com_DropDown_Project": "Test Project Raman",
+			"DropDown_IndCluster": "Apparel and Textiles",
+			"DropDown_Attendee": "Marva Bryan",
+			"DropDown_NAICSCode": "111110 - Soybean Farming",
+			"Companyinternotes_ProjectValue": "Deployment_Product_Test12",
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Administrator Admin",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+		},
+
+		"create_survey_with_newly_created_project": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated",
+			"MySurveys": "My Surveys",
+			"Expected_NewSurveyFiledtext": "New Survey*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_SectionInstructionFiledtext": "Instruction",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman",
+			"ExpectedTexsSocialProfile":"Twitter",
+			"ExpectedTextinstantmessenger":"Skype"
+
+
+		},
+		
+		"create_survey_with_newly_created_project_scida": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Website",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "324 South Service Road Assoc. LLC",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated",		
+			"MySurveys": "My Surveys",
+			"Expected_NewSurveyFiledtext": "New Survey*",
+			"Expected_InstructionFiledtext": "Instructions",
+			"Expected_NameFiledtext": "Name",
+			"Expected_SectionInstructionFiledtext": "Instruction",
+			"ExpectedContactpagetext": "Add Contact Info",
+			"ExpectedGeneralInformationTabtext": "General Information",
+			"TextField_Firstname": "Rahul",
+			"TextField_Salutation": "mr",
+			"TextField_Lastname": "Rohitashwar",
+			"TextField_JobTitle": "qa",
+			"DropDown_Company": "Nabisco, Inc.",
+			"SearchTextCompany": "Na",
+			"DropDown_Project": "Test Project Raman",
+			"internotes_CompanyValue": "Nabisco, Inc.",
+			"internotes_ProjectValue": "Test Project Raman"
+
+
+		},
+
+		"Editproject_projectBenifits_section": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+
+		},
+		"EditADD_Resource_validate": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+		"validate_interaction_notes_edited": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+		"delete_interaction_notes": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+		"delete_interaction_notes_scida": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+		"delete_AddedProjectresources": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+		"validate_total_investment_projectBenifits": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+		"CancelTask_confirmation_duringgAddProject": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+		"CancelTask_confirmation_with_do_not_Save": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+
+		"CancelTask_cancel_of_cancelation": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+
+		"CreateProjectEndToEnd_SCIDA": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Website",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "324 South Service Road Assoc. LLC",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+		
+		"validate_total_investment_projectBenifits_scida": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Website",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "324 South Service Road Assoc. LLC",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+		
+
+		"delete_AddedProjectresources_scida": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Website",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "324 South Service Road Assoc. LLC",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+
+		"Editproject_Generalinfo_section_scida": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Home",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "324 South Service Road Assoc. LLC",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+
+		"EditADD_Resource_validate_scida": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Website",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "324 South Service Road Assoc. LLC",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+
+
+		"Editproject_projectBenifits_section_scida": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Website",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "324 South Service Road Assoc. LLC",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+
+		"validate_interaction_notes_edited_scida": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Website",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "324 South Service Road Assoc. LLC",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+
+		"CreateProjectEndToEnd_dafc": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "324 South Service Road Assoc. LLC",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+		
+		"validate_Employment_informations_projectBenifits_scida": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "324 South Service Road Assoc. LLC",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+		
+		"validate_Employment_informations_projectBenifits": {
+			"ExpectedTextPhone": "Office",
+			"ExpectedTextEmail": "Work",
+			"ExpectedTextAdressType": "Branch Office",
+			"ExpectedTexCountry": "Mexico",
+			"ExpectedTexstate": "Colima",
+			"ExpectedTexsURL": "Work",
+			"ExpectedTexsResponse": "Insufficient Workforce",
+			"ExpectedPageName": "Add Project Info",
+			"ExpectedSearchValue": "Project",
+			"DropDown_value_company_Category": "Approval Process",
+			"DropDown_value_projectManager": "Admin4 Tenant4",
+			"ExpectedCompanyValue": "dep",
+			"DropDown_value_company": "Deploymne_Compnay_Testing",
+			"DropDown_value_PrimaryContact": "Jane Doe",
+			"DropDown_value_SecondaryContact": "Devesh Seth",
+			"DropDown_value_IndustryCluster": "Advanced Materials",
+			"DropDown_value_OtherContact": "Devesh Seth",
+			"DropDown_value_NAISCCode": "111110 - Soybean Farming",
+			"DropDown_value_Resource": "General Documents",
+			"DropDown_value_NoteType": "Face to face",
+			"DropDown_value_Attendees": "Raman Puri",
+			"DropDown_value_status": "Initiated"
+
+
+		},
+		
+		}
+	
+
+}
